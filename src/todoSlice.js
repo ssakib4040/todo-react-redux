@@ -6,7 +6,7 @@ export const todoSlice = createSlice({
     todoList: [
       {
         id: 1,
-        name: "todo 3",
+        name: "todo 1",
       },
 
       {

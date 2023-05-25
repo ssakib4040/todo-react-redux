@@ -42,8 +42,6 @@ function TodoItem({ todo }) {
   const [editValue, setEditValue] = useState(todo.name);
   const dispatch = useDispatch();
 
-  console.log(todo);
-
   const handleEdit = (e) => {
     e.preventDefault();
     if (!editValue) return;

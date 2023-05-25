@@ -3,7 +3,22 @@ import { createSlice } from "@reduxjs/toolkit";
 export const todoSlice = createSlice({
   name: "todo",
   initialState: {
-    todoList: [],
+    todoList: [
+      {
+        id: 1,
+        name: "todo 3",
+      },
+
+      {
+        id: 2,
+        name: "todo 2",
+      },
+
+      {
+        id: 3,
+        name: "todo 3",
+      },
+    ],
   },
   reducers: {
     saveTodo: (state, action) => {
